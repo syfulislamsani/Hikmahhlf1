@@ -32,16 +32,6 @@ const placeOrder = async (req, res) => {
 
 }
 
-// placing orders using COD method
-const placeOrderStripe = async (req, res) => {
-    
-}
-
-// placing orders using COD method
-const placeOrderRazorpay = async (req, res) => {
-    
-}
-
 // all orders for admin panel 
 const allOrders= async (req, res) => {
     
@@ -85,4 +75,4 @@ const updateStatus = async (req, res) => {
     }
 }
 
-export {placeOrder, placeOrderStripe, placeOrderRazorpay, allOrders, userOrders, updateStatus }
+export {placeOrder, allOrders, userOrders, updateStatus }
